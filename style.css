@@ -235,8 +235,8 @@ main{
     top:15px;
     right:15px;
 
-    width:40px;
-    height:40px;
+    width:20px;
+    height:20px;
 
     border:none;
 
@@ -267,6 +267,32 @@ main{
     color:red;
 
 }
+
+.desconto{
+
+    position:absolute;
+
+    top:15px;
+
+    left:15px;
+
+    background:#ff2d55;
+
+    color:white;
+
+    padding:6px 12px;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+    font-weight:bold;
+
+    z-index:10;
+
+}
+
+
 
 /* RODAPÉ */
 
