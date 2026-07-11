@@ -14,7 +14,7 @@
 
     <header>
 
-        <h1> Tech Ofertas </h1>
+        <h1>Tech Ofertas</h1>
 
         <p>Achados de tecnologia da Shopee</p>
 
@@ -26,88 +26,147 @@
 
     </section>
 
-    <section class="categorias">
+    <section class="filtros">
 
-        <button>🎧 Fones</button>
-        <button>⌚ Smartwatch</button>
-        <button>🔋 Power Bank</button>
-        <button>🎮 Gamer</button>
-        <button>📱 Celulares</button>
+        <input type="text" id="pesquisa" placeholder="🔍 Pesquisar produtos...">
+
+        <div class="categorias">
+
+            <button class="ativo" data-categoria="todos">Todos</button>
+            <button data-categoria="favoritos">❤️ Favoritos</button>
+            <button data-categoria="fone">Fones</button>
+            <button data-categoria="tripé">Tripés</button>
+            <button data-categoria="carregador">Carregadores</button>
+            <button data-categoria="teclado">Kits Gamer</button>
+            <button data-categoria="celular">Celulares</button>
+            <button data-categoria="smartwatch">Smartwatch</button>
+            
+
+        </div>
 
     </section>
 
     <main>
 
-        <div class="card">
+        <!-- Fone -->
+
+        <div class="card" data-categoria="fone" data-id="fone01">
+
+            <button class="favorito">🤍</button>
 
             <img src="img/fone gatinho.webp" alt="Fone Gatinho Led Bluetooth">
 
             <h3>Fone Gatinho Led Bluetooth</h3>
-            
-            <p class="novo">Apartir de <span>R$38,93</span></p>
 
-            <a href="https://s.shopee.com.br/5LADYDmkb7">Comprar na Shopee</a>
+            <p class="novo">
+                A partir de <span>R$38,93</span>
+            </p>
 
-        </div>
-
-        <div class="card">
-
-            <img src="img/tripé.webp" alt="Tripé Profissional10' Led Selfie para Celular">
-
-            <h3>Tripé Profissional10' Led Selfie para Celular</h3>
-
-            <p class="novo">Apartir de <span>R$25,99</span></p>
-
-            <a href="https://s.shopee.com.br/3g1zbeRc5X">Comprar na Shopee</a>
+            <a href="https://s.shopee.com.br/5LADYDmkb7" target="_blank">
+                Comprar na Shopee
+            </a>
 
         </div>
 
-        <div class="card">
+        <!-- Tripé -->
 
-            <img src="img/carregador portátil.webp" alt="Carregador 2em1 Portátil">
+        <div class="card" data-categoria="tripé" data-id="tripe01">
 
-            <h3>Carregador 2em1 Portátil: Bateria 10000mAh + Base Sem Fio para iPhone e Android Tipo-C</h3>
+            <button class="favorito">🤍</button>
 
-            <p class="novo">Apartir de <span>R$27,99</span></p>
+            <img src="img/tripé.webp" alt="Tripé Profissional">
 
-            <a href="https://s.shopee.com.br/7AbrmB6Mi1">Comprar na Shopee</a>
+            <h3>Tripé Profissional 10' Led Selfie para Celular</h3>
 
-        </div>
+            <p class="novo">
+                A partir de <span>R$25,99</span>
+            </p>
 
-        <div class="card">
-
-            <img src="img/kit gamer.webp" alt="kit gamer">
-
-            <h3>Kit Gamer Headset Gamer Com Microfone + Teclado Gamer ABNT2 + Mouse Gamer Led 7 Cores Sensor Óptico</h3>
-
-            <p class="novo"><span>R$180,41</span></p>
-
-            <a href="https://s.shopee.com.br/AAFTM7tndO">Comprar na Shopee</a>
+            <a href="https://s.shopee.com.br/3g1zbeRc5X" target="_blank">
+                Comprar na Shopee
+            </a>
 
         </div>
 
-        <div class="card">
+        <!-- Carregador -->
 
-            <img src="img/xiaomi.webp" alt="xiaomi">
+        <div class="card" data-categoria="carregador" data-id="carregador01">
 
-            <h3>Celular Xiaomi POCO C85 Dual SIM 4G 256GB/128GB Versão Global NFC Celular barato Novo Câmera 50MP</h3>
+            <button class="favorito">🤍</button>
 
-            <p class="novo">Apartir de <span>R$1.262,08</span></p>
+            <img src="img/carregador portátil.webp" alt="Carregador Portátil">
 
-            <a href="https://s.shopee.com.br/3ViZQZMqTp">Comprar na Shopee</a>
+            <h3>Carregador 2 em 1 Portátil 10000mAh + Base Sem Fio</h3>
+
+            <p class="novo">
+                A partir de <span>R$27,99</span>
+            </p>
+
+            <a href="https://s.shopee.com.br/7AbrmB6Mi1" target="_blank">
+                Comprar na Shopee
+            </a>
 
         </div>
 
-        <div class="card">
+        <!-- Kit Gamer -->
 
-            <img src="img/relogio smartwatch.webp" alt="relogio smartwatch">
+        <div class="card" data-categoria="teclado" data-id="kitgamer01">
 
-            <h3>Relogio Smartwatch Smart Bracelet D20 Plus Relógio inteligente para Android e IOS</h3>
-            
-               <p class="antigo">R$24,99</p> 
-            <p class="novo"> <span>R$21,74</span></p>
+            <button class="favorito">🤍</button>
 
-            <a href="https://s.shopee.com.br/3ViZSxKG1o">Comprar na Shopee</a>
+            <img src="img/kit gamer.webp" alt="Kit Gamer">
+
+            <h3>Kit Gamer Headset + Teclado ABNT2 + Mouse LED</h3>
+
+            <p class="novo">
+                A partir de <span>R$180,41</span>
+            </p>
+
+            <a href="https://s.shopee.com.br/AAFTM7tndO" target="_blank">
+                Comprar na Shopee
+            </a>
+
+        </div>
+
+        <!-- Xiaomi -->
+
+        <div class="card" data-categoria="celular" data-id="celular01">
+
+            <button class="favorito">🤍</button>
+
+            <img src="img/xiaomi.webp" alt="Xiaomi POCO C85">
+
+            <h3>Celular Xiaomi POCO C85 Dual SIM NFC</h3>
+
+            <p class="novo">
+                A partir de <span>R$1.262,08</span>
+            </p>
+
+            <a href="https://s.shopee.com.br/3ViZQZMqTp" target="_blank">
+                Comprar na Shopee
+            </a>
+
+        </div>
+
+        <!-- Smartwatch -->
+
+        <div class="card" data-categoria="smartwatch" data-id="smartwatch01">
+
+            <button class="favorito">🤍</button>
+
+            <img src="img/relogio smartwatch.webp" alt="Smartwatch D20 Plus">
+
+            <h3>Relógio Smartwatch D20 Plus Android e iOS</h3>
+
+            <p class="antigo">R$24,99</p>
+
+            <p class="novo">
+                <span>R$21,74</span>
+            </p>
+
+            <a href="https://s.shopee.com.br/3ViZSxKG1o" target="_blank">
+                Comprar na Shopee
+            </a>
 
         </div>
 
@@ -118,6 +177,8 @@
         <p>© 2026 Tech Ofertas</p>
 
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 
