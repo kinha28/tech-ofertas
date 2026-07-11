@@ -39,6 +39,8 @@ header p {
 
 }
 
+
+
 .banner {
 
     margin: 40px auto;
@@ -142,6 +144,7 @@ main {
 
 }
 
+
 .antigo {
 
     margin: 0 20px;
@@ -153,8 +156,11 @@ main {
 }
 
 .novo {
+    font-size: 1rem;
+    margin: 10px;
+}
 
-    margin: 10px 20px;
+.novo span {
 
     color: #ff6600;
 
