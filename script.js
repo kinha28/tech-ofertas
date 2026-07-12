@@ -122,3 +122,54 @@ favoritos.forEach(botao => {
 
 // Exibe os produtos corretamente ao carregar a página
 filtrarProdutos();
+
+const slides = document.querySelectorAll(".slide");
+const dots = document.querySelectorAll(".dot");
+
+let index = 0;
+
+function mostrarSlide(i){
+
+    slides.forEach(slide=>slide.classList.remove("active"));
+    dots.forEach(dot=>dot.classList.remove("active"));
+
+    slides[i].classList.add("active");
+    dots[i].classList.add("active");
+}
+
+document.querySelector(".next").onclick = ()=>{
+
+    index++;
+
+    if(index >= slides.length){
+
+        index = 0;
+    }
+
+    mostrarSlide(index);
+}
+
+document.querySelector(".prev").onclick = ()=>{
+
+    index--;
+
+    if(index < 0){
+
+        index = slides.length-1;
+    }
+
+    mostrarSlide(index);
+}
+
+setInterval(()=>{
+
+    index++;
+
+    if(index >= slides.length){
+
+        index = 0;
+    }
+
+    mostrarSlide(index);
+
+},5000);
