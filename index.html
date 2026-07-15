@@ -5,118 +5,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Ofertas</title>
-
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
     <header>
-
         <h1>Tech Ofertas</h1>
-
         <p>Achados de tecnologia da Shopee</p>
-
     </header>
 
     <section class="banner">
-
         <img src="img/banner.png" alt="banner">
-
     </section>
 
+    <!-- Seção de Destaques / Carrossel -->
     <section class="destaques">
-
-        <h2>Ofertas Imperdiveis</h2>
+        <h2>Ofertas Imperdíveis</h2>
 
         <div class="carousel">
-
             <button class="prev">&#10094;</button>
 
             <div class="slides">
 
+                <!-- Slide 1 (Preencha os campos vazios depois) -->
                 <div class="slide active">
-
-                    <img src="img/tripé.webp" alt="tripé">
-
-                    <h3>Tripé Profissional 10' Led Selfie para Celular</h3>
-
+                    <img src="img/kit sansung.png" alt="kit sansung completo">
                     <div class="selo-oferta">
                         <span>OFERTA</span>
-                        <strong>74% OFF</strong>
+                        <strong>56% OFF</strong>
                     </div>
+                    <h3>Kit Completo para iPhone 6/13/14/15 - Carregador Indutivo, Cabo de Dados, Fone Bluetooth e Power Bank P2</h3>
                     <p class="novo">
-                        A partir de <span>R$25,99</span>
+                        A partir de <span>R$ 104,50</span>
                     </p>
-                    <a href="https://s.shopee.com.br/3g1zbeRc5X" class="btn-oferta">👉 Aproveitar Oferta</a>
-
+                    <a href="https://s.shopee.com.br/80B6H4HVvU" class="btn-oferta">👉 Aproveitar Oferta</a>
                 </div>
 
+                <!-- Slide 2 -->
                 <div class="slide">
-                    <img src="img/power bank.webp" alt="carregador02">
-
+                    <img src="img/cadeira.webp" alt="cadeira gamer">
                     <div class="selo-oferta">
                         <span>OFERTA</span>
-                        <strong>68% OFF</strong>
+                        <strong>70% OFF</strong>
                     </div>
-
-                    <h3>Power Bank 20000mAh Portátil Display Digital Carregamento Rápido 4 Saídas Universal</h3>
+                    <h3>Cadeira de jogo profissional Ergonomia Altura ajustável Cadeira de esportes eletrônicos F19</h3>
                     <p class="novo">
-                        <span>R$64,99</span>
+                        A partir de <span>R$ 420,14</span>
                     </p>
-                    <a href="https://s.shopee.com.br/7Abuus6AHN" class="btn-oferta">👉 Aproveitar Oferta</a>
+                    <a href="https://s.shopee.com.br/6L2sIs5U17" class="btn-oferta">👉 Aproveitar Oferta</a>
                 </div>
 
+                <!-- Slide 3 -->
                 <div class="slide">
-                    <img src="img/suporte.webp" alt="suporte01">
-
+                    <img src="img/microfone.webp" alt="microfone">
                     <div class="selo-oferta">
                         <span>OFERTA</span>
-                        <strong>75% OFF</strong>
+                        <strong>70% OFF</strong>
                     </div>
-
-                    <h3>Suporte Para Celular E Tablet Ajustável Apoio Mesa</h3>
-                    <p class="novo">Apartir de
-                        <span>R$10,09</span>
-                    </p>
-                    <a href="https://s.shopee.com.br/gOOzAuLuL" class="btn-oferta">👉 Aproveitar Oferta</a>
+                    <h3>Microfone De Lapela Sem Fio Magnético Com Caixa e 2 Mics</h3>
+                    <p class="novo">A partir de <span>R$57,80</span></p>
+                    <a href="https://s.shopee.com.br/18olG3UIE" class="btn-oferta">👉 Aproveitar Oferta</a>
                 </div>
 
+                <!-- Slide 4 -->
                 <div class="slide">
                     <img src="img/processador.webp" alt="processador">
-
                     <div class="selo-oferta">
                         <span>OFERTA</span>
                         <strong>66% OFF</strong>
                     </div>
-
                     <h3>3 Litros Triturador De Alimentos Carne Elétrica Processador Cozinha Envio Imediato 110/220V</h3>
-                    <p class="novo">Apartir de
-                        <span>R$66,99</span>
-                    </p>
+                    <p class="novo">A partir de <span>R$66,99</span></p>
                     <a href="https://s.shopee.com.br/5VTgyVNHcG" class="btn-oferta">👉 Aproveitar Oferta</a>
                 </div>
 
+                <!-- Slide 5 -->
                 <div class="slide">
                     <img src="img/mouse.webp" alt="mouse">
-
                     <div class="selo-oferta">
                         <span>OFERTA</span>
                         <strong>68% OFF</strong>
                     </div>
-
                     <h3>Mouse Gamer Sem Fio 2.4GHz + Bluetooth 5.0 RGB Recarregável</h3>
-                    <p class="novo">
-                        <span>R$64,88</span>
-                    </p>
+                    <p class="novo">A partir de <span>R$64,88</span></p>
                     <a href="https://s.shopee.com.br/6L2nx7MElF" class="btn-oferta">👉 Aproveitar Oferta</a>
                 </div>
 
             </div>
 
             <button class="next">&#10095;</button>
-
         </div>
 
         <div class="dots">
@@ -127,373 +105,31 @@
             <span class="dot"></span>
         </div>
 
-    </section>
-
-    <section class="filtros">
-
-        <input type="text" id="pesquisa" placeholder="🔍 Pesquisar produtos...">
-
-        <div class="categorias">
-
-            <button class="ativo" data-categoria="todos">Todos</button>
-            <button data-categoria="favoritos">❤️ Favoritos</button>
-            <button data-categoria="fone">Fones</button>
-            <button data-categoria="tripe">Tripés</button>
-            <button data-categoria="carregador">Carregadores</button>
-            <button data-categoria="kitgamer">Kits Gamer</button>
-            <button data-categoria="celular">Celulares</button>
-            <button data-categoria="smartwatch">Smartwatch</button>
-            <button data-categoria="caixadesom">Caixas de Som</button>
-            <button data-categoria="acessorios">Acessórios</button>
-
-
-        </div>
-
-    </section>
-
-    <main>
-
-        <!-- Fone 1-->
-
-        <div class="card" data-categoria="fone" data-id="fone01">
-
-            <button class="favorito">🤍</button>
-
-            <img src="img/fone gatinho.webp" alt="Fone Gatinho Led Bluetooth">
-
-            <h3>Fone Gatinho Led Bluetooth</h3>
-
-            <p class="novo">
-                A partir de <span>R$38,93</span>
-            </p>
-
-            <a href="https://s.shopee.com.br/5LADYDmkb7" target="_blank">
-                Comprar na Shopee
+        <div class="banner-colecao">
+            <h2>Quer ver mais ofertas incríveis?</h2>
+            <p>Explore nossa vitrine completa com centenas de produtos atualizados diariamente!</p>
+            <a href="https://collshp.com/kinha280811?share_channel_code=1&view=storefront" target="_blank" class="botao-colecao">
+                Ver Coleção Completa na Shopee 🛍️
             </a>
-
         </div>
-
-        <!-- celular 2-->
-
-        <div class="card" data-categoria="celular" data-id="celular02">
-
-            <button class="favorito">🤍</button>
-
-            <img src="img/realme.webp" alt="celular">
-
-            <h3>Celular Realme Note 60X 4G 128GB + 4GB RAM / 64GB + 3GB RAM 5000mAh câmera IA 8mp IP54</h3>
-
-            <p class="novo">
-               <span>R$655,80</span>
-            </p>
-            <a href="https://s.shopee.com.br/6L2nx7MElF" target="_blank">
-                Comprar na Shopee
-            </a>
-
-        </div>
-
-        <!-- Carregador 3-->
-
-        <div class="card" data-categoria="carregador" data-id="carregador01">
-
-            <button class="favorito">🤍</button>
-            <span class="desconto">53% OFF</span>
-
-            <img src="img/carregador portátil.webp" alt="Carregador Portátil">
-
-            <h3>Carregador 2 em 1 Portátil 10000mAh + Base Sem Fio</h3>
-
-            <p class="novo">
-                A partir de <span>R$27,99</span>
-            </p>
-
-            <a href="https://s.shopee.com.br/7AbrmB6Mi1" target="_blank">
-                Comprar na Shopee
-            </a>
-
-        </div>
-
-        <!-- Kit Gamer 4-->
-
-        <div class="card" data-categoria="kitgamer" data-id="kitgamer01">
-
-            <button class="favorito">🤍</button>
-
-            <img src="img/kit gamer.webp" alt="Kit Gamer">
-
-            <h3>Kit Gamer Headset + Teclado ABNT2 + Mouse LED</h3>
-
-            <p class="novo">
-                A partir de <span>R$180,41</span>
-            </p>
-
-            <a href="https://s.shopee.com.br/AAFTM7tndO" target="_blank">
-                Comprar na Shopee
-            </a>
-
-        </div>
-
-        <!-- Xiaomi 5-->
-
-        <div class="card" data-categoria="celular" data-id="celular01">
-
-            <button class="favorito">🤍</button>
-
-            <img src="img/xiaomi.webp" alt="Xiaomi POCO C85">
-
-            <h3>Celular Xiaomi POCO C85 Dual SIM NFC</h3>
-
-            <p class="novo">
-                A partir de <span>R$1.262,08</span>
-            </p>
-
-            <a href="https://s.shopee.com.br/3ViZQZMqTp" target="_blank">
-                Comprar na Shopee
-            </a>
-
-        </div>
-
-        <!-- Smartwatch 6-->
-
-        <div class="card" data-categoria="smartwatch" data-id="smartwatch01">
-
-            <button class="favorito">🤍</button>
-            <span class="desconto">13% OFF</span>
-
-            <img src="img/relogio smartwatch.webp" alt="Smartwatch D20 Plus">
-
-            <h3>Relógio Smartwatch D20 Plus Android e iOS</h3>
-
-            <p class="antigo">R$24,99</p>
-
-            <p class="novo">
-                <span>R$21,74</span>
-            </p>
-
-            <a href="https://s.shopee.com.br/3ViZSxKG1o" target="_blank">
-                Comprar na Shopee
-            </a>
-
-        </div>
-
-        <!-- Cadeira 7-->
-        <div class="card" data-categoria="kitgamer" data-id="cadeira01">
-
-            <button class="favorito">🤍</button>
-            
-
-            <img src="img/cadeira.webp" alt="cadeira">
-
-            <h3>Cadeira de jogo profissional Ergonomia Altura ajustável Cadeira de esportes eletrônicos F19</h3>
-
-            <p class="novo">Apartir de
-                <span>R$420,14</span>
-            </p>
-
-            <a href="https://s.shopee.com.br/3LPDuANQPa" target="_blank">
-                Comprar na Shopee
-            </a>
-
-        </div>
-
-        <!-- Amplificador 8-->
-        <div class="card" data-categoria="acessorios" data-id="amplificador01">
-
-            <button class="favorito">🤍</button>
-            <span class="desconto">30% OFF</span>
-
-            <img src="img/amplificador.jpg" alt="amplificador">
-
-            <h3>Amplificador de imagem da tela do celular</h3>
-
-            <p class="novo">
-                <span>R$20,99</span>
-            </p>
-
-            <a href="https://s.shopee.com.br/80AzlkYg7Q" target="_blank">
-                Comprar na Shopee
-            </a>
-
-        </div>
-
-        <!-- suporte 9-->
-        <div class="card" data-categoria="acessorios" data-id="suporte02">
-
-            <button class="favorito">🤍</button>
-
-            <img src="img/suporte2.webp" alt="suporte">
-
-            <h3>Suporte de parede multifuncional de carregamento, caixa de armazenamento para organização, controle
-                remoto</h3>
-
-            <p class="novo">Apartir de
-                <span>R$7,99</span>
-            </p>
-
-            <a href="https://s.shopee.com.br/18iG4LTWu" target="_blank">
-                Comprar na Shopee
-            </a>
-
-        </div>
-
-        <!-- caixa de som 10-->
-        <div class="card" data-categoria="caixadesom" data-id="caixadesom01">
-
-            <button class="favorito">🤍</button>
-            <span class="desconto">5% OFF</span>
-
-            <img src="img/caixa de som.webp" alt="caixa de som">
-
-            <h3>Lampada Bluetooth De Led Caixa De Som C Controle Rgb 12W</h3>
-
-            <p class="novo">
-                <span>R$34,20</span>
-            </p>
-
-            <a href="https://s.shopee.com.br/40er387Z41" target="_blank">
-                Comprar na Shopee
-            </a>
-
-        </div>
-
-        <!-- caixa k12 11-->
-        <div class="card" data-categoria="caixadesom" data-id="caixadesom02">
-
-            <button class="favorito">🤍</button>
-
-            <img src="img/caixa k12.webp" alt="caixa9 de som e microfones">
-
-            <h3>K12 Caixa De Som Com Microfones Bluetooth Karaokê Brincadeiras em Família</h3>
-
-            <p class="novo">
-                <span>R$27,87</span>
-            </p>
-
-            <a href="https://s.shopee.com.br/LlYhdlcFJ" target="_blank">
-                Comprar na Shopee
-            </a>
-
-        </div>
-
-        <!-- fone 12-->
-        <div class="card" data-categoria="fone" data-id="fone02">
-
-            <button class="favorito">🤍</button>
-
-            <img src="img/fone.webp" alt="fone de ouvido">
-
-            <h3>Fones de ouvido sem fio Bluetooth Ear-Hook 5.3</h3>
-
-            <p class="novo">
-                <span>R$46,99</span>
-            </p>
-
-            <a href="https://s.shopee.com.br/60Pvv3UAOo" target="_blank">
-                Comprar na Shopee
-            </a>
-
-        </div>
-
-        <!-- caixa de som aprova d'agua 13-->
-        <div class="card" data-categoria="caixadesom" data-id="caixadesom03">
-
-            <button class="favorito">🤍</button>
-            <span class="desconto">24% OFF</span>
-            <img src="img/caixa a prova d'agua.webp" alt="caixa de som aprova d'agua">
-
-            <h3>Caixa de Som Banheiro Resiste Agua Prova D Agua para banho Bluetooth Android E Ios</h3>
-
-            <p class="novo">Apartir de
-                <span>R$22,88</span>
-            </p>
-
-            <a href="https://s.shopee.com.br/2g9WYiTnkC" target="_blank">
-                Comprar na Shopee
-            </a>
-
-        </div>
-
-        <!-- pop it 14-->
-        <div class="card" data-categoria="acessorios" data-id="popit01">
-
-            <button class="favorito">🤍</button>
-            
-            <img src="img/pop it.webp" alt="pop it">
-
-            <h3>Brinquedo Pop It Eletrônico Mini Game Jogo Quick Fast Push Fidget Toy Anti-Stress</h3>
-
-            <p class="novo">Apartir de
-                <span>R$38,90</span>
-            </p>
-
-            <a href="https://s.shopee.com.br/2BDGX2XQD4" target="_blank">
-                Comprar na Shopee
-            </a>
-
-        </div>
-
-        <!-- repelente lampada 15-->
-        <div class="card" data-categoria="acessorios" data-id="repelente01">
-
-            <button class="favorito">🤍</button>
-            <span class="desconto">78% OFF</span>
-            <img src="img/repelente.webp" alt="lampada repelente">
-
-            <h3>Luminária Led Mosquiteiro Sem Radiação Armadilha De Insetos Repelente Eletrônico UV Envio Imediato</h3>
-
-            <p class="novo">Apartir de
-                <span>R$19,94</span>
-            </p>
-
-            <a href="https://s.shopee.com.br/2BDGYN8h46" target="_blank">
-                Comprar na Shopee
-            </a>
-
-        </div>
-
-        <!-- secador de roupa 16-->
-        <div class="card" data-categoria="acessorios" data-id="secador01">
-
-            <button class="favorito">🤍</button>
-            <span class="desconto">7% OFF</span>
-            <img src="img/secador de roupa.webp" alt="secador de roupa">
-
-            <h3>Luminária Led Mosquiteiro Sem Radiação Armadilha De Insetos Repelente Eletrônico UV Envio ImediatoSecador De Roupas Portátil Elétrico Aquecedor Varal Dobrável Secagem Rápida</h3>
-
-            <p class="novo">Apartir de
-                <span>R$149,06</span>
-            </p>
-
-            <a href="https://s.shopee.com.br/2BDGYFoM14" target="_blank">
-                Comprar na Shopee
-            </a>
-
-        </div>
-
-    </main>
+    </section> 
 
     <footer>
-
         <p>© 2026 Tech Ofertas</p>
-
     </footer>
 
+    <!-- Botão Flutuante do WhatsApp -->
     <div class="whatsapp-float">
-
         <a href="https://wa.me/5585985367598" target="_blank">
-
             <div class="texto-whats">
                 Tire suas dúvidas<br>
                 ou deixe sua sugestão 💬
             </div>
-
             <img src="img/zap.png" alt="WhatsApp">
-
         </a>
-
     </div>
-    <script src="script.js"></script>
 
+    <script src="script.js"></script>
 </body>
 
 </html>

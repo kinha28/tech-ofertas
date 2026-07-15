@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nome": "Fone de Ouvido Bluetooth Pro",
+    "imagem": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500",
+    "precoOriginal": 120.00,
+    "precoPromocao": 79.90,
+    "emPromocao": true,
+    "linkShopee": "https://shope.ee/seu-link-de-afiliado-aqui"
+  },
+  {
+    "id": 2,
+    "nome": "Carregador Rápido Tipo C",
+    "imagem": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=500",
+    "precoOriginal": 45.00,
+    "precoPromocao": 45.00,
+    "emPromocao": false,
+    "linkShopee": "https://shope.ee/seu-link-de-afiliado-aqui"
+  }
+]
